@@ -1,0 +1,115 @@
+.myButton {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	 
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton1 {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:5px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton1:hover {
+	background-color:#5cbf2a;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton2 {
+	background-color:#2980b9;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #2980b9;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:5px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton1:hover {
+	background-color:#5cbf2a;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton3 {
+	background-color:#ea6153;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #ea6153;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:5px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ea6153;
+}
+.myButton1:hover {
+	background-color:#5cbf2a;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}
+
+
+.myButton4 {
+	background-color:#f6f6f6;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #f6f6f6;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	padding:15px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #f6f6f6;
+}
+.myButton1:hover {
+	background-color:#5cbf2a;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}

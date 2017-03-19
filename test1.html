@@ -1,0 +1,117 @@
+<html>
+<head>
+     <link rel="stylesheet" href="style.sass">
+
+  
+      <link rel="stylesheet" href="style.css">
+ <script>
+    function showUser() {
+
+                                if (window.XMLHttpRequest)
+                                {
+                                    // code for IE7+, Firefox, Chrome, Opera, Safari
+                                    xmlhttp = new XMLHttpRequest();
+                                } else 
+                                {
+                                    // code for IE6, IE5
+                                    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                                }
+                                xmlhttp.onreadystatechange = function() 
+                                {
+                                    if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+                                    {
+                                        document.getElementById("tab").innerHTML = xmlhttp.responseText;
+                                    }
+                                    else 
+                                        window.alert("error");
+                                };
+                                xmlhttp.open("GET","index1.php",true);
+
+    xmlhttp.send();
+
+    </script>
+     
+</head>
+<body>
+    <body>
+    <ul>
+     <li id="legend">
+         <div id="level-high">
+         </div>
+         <div id="level-medium">
+         </div>
+         <div id="level-low">
+         </div>
+      </li>
+    <li class="water-bottle">
+        <div class="cap">
+            <div class="cap-top">
+            </div>
+            <div class="cap-seal">
+            </div>
+        </div>
+       <div class="bottle">
+            <div class="water-empty"> </div>
+        </div>
+    </li>
+          <li class="water-bottle">
+        <div class="cap">
+            <div class="cap-top">
+            </div>
+            <div class="cap-seal">
+            </div>
+        </div>
+       <div class="bottle">
+            <div class="water-low"> </div>
+        </div>
+    </li>
+    <li class="water-bottle">
+        <div class="cap">
+            <div class="cap-top">
+            </div>
+            <div class="cap-seal">
+            </div>
+        </div>
+       <div class="bottle">
+            <div class="water-medium"> </div>
+        </div>
+    </li>
+      
+        <li class="water-bottle">
+        <div class="cap">
+            <div class="cap-top">
+            </div>
+            <div class="cap-seal">
+            </div>
+        </div>
+       <div class="bottle">
+            <div class="water-full"> </div>
+        </div>
+    </li>
+   </ul>
+        <div id="base"></div>
+</body>
+    <div class="wrapper" id="tab">
+  
+  <div class="table">
+    
+    <div class="row header">
+      <div class="cell">
+        S no
+      </div>
+      <div class="cell">
+        Value
+      </div>
+      <div class="cell">
+        timestamp
+      </div>
+       
+    </div>
+        </div>
+    </div>
+ 
+<br>
+
+
+</body>
+</html>
